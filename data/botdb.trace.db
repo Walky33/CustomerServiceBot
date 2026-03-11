@@ -1,0 +1,8 @@
+2026-03-01 09:51:38.174878+08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table configuration (\000d\000a        [*]key varchar(255) not null,\000d\000a        value varchar(255),\000d\000a        primary key (key)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table configuration (
+        key varchar(255) not null,
+        value varchar(255),
+        primary key (key)
+    ) [42001-224]
